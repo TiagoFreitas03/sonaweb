@@ -21,7 +21,8 @@ export function useMemory() {
 		if (memory) {
 			memory.randomize()
 			setProcesses(memory.currentProcessesState)
-		}
+		} else
+			throw new Error('A memória ainda não foi criada.')
 	}
 
 	function allocate(size: number, color: string) {

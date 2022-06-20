@@ -81,7 +81,10 @@ export class Memory {
 
 		const freeSizes = freeSpaces.map(space => space.size)
 
-		return { freeSpaces: freeSpaces.filter(space => space.size >= requiredSize), freeSizes }
+		return {
+			freeSpaces: freeSpaces.filter(space => space.size >= requiredSize),
+			freeSizes,
+		}
 	}
 
 	deallocate(procNumber: number) {
@@ -91,8 +94,10 @@ export class Memory {
 		const pid = `P${procNumber}`
 		let indexes = this.processes.map((p, i) => p.id === pid ? i : -1).filter(value => value > -1)
 
-		if (indexes.length > 0)
-			indexes.forEach(index => this.processes[index] = { id: '', color: 'white' })
+		if (indexes.length === 0)
+			throw new Error('Processo não encontrado.')
+
+		indexes.forEach(index => this.processes[index] = { id: '', color: 'white' })
 	}
 
 	randomize() {
