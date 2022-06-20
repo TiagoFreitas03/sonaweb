@@ -18,9 +18,8 @@
 .alert {
 	z-index: 9999 !important;
 	position: fixed;
-	display: none;
 	top: 10px;
-	right: 10px;
+	left: 10px;
 	margin-left: 10px;
 }
 
@@ -39,28 +38,28 @@
 	outline: none !important;
 }
 
-.bg-grey, .bg-grey:hover { 
-	background-color: var(--grey); 
-	color: #ffffff; 
+.bg-grey, .bg-grey:hover {
+	background-color: var(--grey);
+	color: #ffffff;
 }
 
-.bg-green, .bg-green:hover { 
-	background-color: var(--green); 
+.bg-green, .bg-green:hover {
+	background-color: var(--green);
 	color: #ffffff; }
 
-.bg-yellow, .bg-yellow:hover { 
-	background-color: var(--yellow); 
-	color: #ffffff; 
+.bg-yellow, .bg-yellow:hover {
+	background-color: var(--yellow);
+	color: #ffffff;
 }
 
-.bg-orange, .bg-orange:hover { 
-	background-color: var(--orange); 
-	color: #ffffff; 
+.bg-orange, .bg-orange:hover {
+	background-color: var(--orange);
+	color: #ffffff;
 }
 
-.bg-red, .bg-red:hover { 
-	background-color: var(--red); 
-	color: #ffffff; 
+.bg-red, .bg-red:hover {
+	background-color: var(--red);
+	color: #ffffff;
 }
 
 .bg-light-grey { background-color: #ddd; }
