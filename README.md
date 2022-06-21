@@ -20,7 +20,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [TypeScript](https://www.typescriptlang.org/)
 - [Bootstrap](https://getbootstrap.com/)
 
-## 💣 Projeto
+## 👨‍🏫 Projeto
 
 O SOnaWeb é um Simulador Web de um Sistema Operacional Para Fins Educacionais.
 
