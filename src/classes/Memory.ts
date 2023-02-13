@@ -83,7 +83,7 @@ export class Memory {
 
 		return {
 			freeSpaces: freeSpaces.filter(space => space.size >= requiredSize),
-			freeSizes,
+			freeSizes: freeSizes.filter(size => size >= requiredSize),
 		}
 	}
 

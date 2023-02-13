@@ -37,7 +37,6 @@ export function MemorySimulation() {
 	}
 
 	function renderMemory() {
-		console.log('teste')
 		let rows: JSX.Element[] = [], cells: JSX.Element[] = []
 		let x = 0
 
