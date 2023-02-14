@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import '../styles/navbar.css'
 
 export function Navbar() {
@@ -25,15 +27,20 @@ export function Navbar() {
 							id="navbarDropdown"
 							role="button"
 							data-toggle="dropdown"
-						><i className="fas fa-cog fa-lg"></i>
+						>
+							<i className="fas fa-cog fa-lg"></i>
 						</a>
 
 						<div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-							<a className="dropdown-item" href="/help">
+							<Link className="dropdown-item" to="/help">
 								<i className="fas fa-question"/> Ajuda
-							</a>
+							</Link>
 
-							<a className="dropdown-item" href="https://github.com/TiagoFreitas03/sonaweb">
+							<a
+								className="dropdown-item"
+								href="https://github.com/TiagoFreitas03/sonaweb"
+								target='_blank'
+							>
 								<i className="fab fa-github"/> Github
 							</a>
 						</div>
