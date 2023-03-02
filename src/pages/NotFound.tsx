@@ -1,9 +1,9 @@
 export function NotFound() {
 	return (
-		<div className="container mt-4">
-			<h1>Erro 404</h1>
+		<div className="container-fluid mt-4 text-center">
+			<h1 className="display-4 mb-3">Erro 404</h1>
 
-			<p>Página Não Encontrada</p>
+			<h3>Página Não Encontrada</h3>
 		</div>
 	)
 }
