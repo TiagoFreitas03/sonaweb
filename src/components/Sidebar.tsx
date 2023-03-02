@@ -21,6 +21,18 @@ export function Sidebar() {
 					<Link to="/memory" className="list-group-item">
 						<i className="fas fa-memory"></i> Alocação de Memória
 					</Link>
+
+					<Link to="/help" className="list-group-item">
+						<i className="fas fa-question"></i> Ajuda
+					</Link>
+
+					<a
+						href="https://github.com/TiagoFreitas03/sonaweb.git"
+						target='_blank'
+						className="list-group-item"
+					>
+						<i className="fab fa-github"></i> Repositório no GitHub
+					</a>
 				</div>
 			</div>
 		</div>

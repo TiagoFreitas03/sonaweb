@@ -1,9 +1,0 @@
-.navbar {
-	background-color: var(--grey);
-}
-
-#menu-toggle, #title, #navbarDropdown {
-	color: white !important;
-	font-family: 'Quicksand';
-	font-weight: bold;
-}
