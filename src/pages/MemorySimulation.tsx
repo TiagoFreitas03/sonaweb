@@ -86,7 +86,7 @@ export function MemorySimulation() {
 			<form onSubmit={handleMemoryFormSubmit}>
 				<div className="row p-3">
 					<div className="col-lg-4 form-group">
-						<label htmlFor="algorithm">Algoritmo:</label>
+						<b><label htmlFor="algorithm">Algoritmo:</label></b>
 
 						<select
 							id="algorithm"
@@ -103,7 +103,7 @@ export function MemorySimulation() {
 					</div>
 
 					<div className="col-lg-4 form-group">
-						<label htmlFor="memorySize">Tamanho da Memória (KB):</label>
+						<b><label htmlFor="memorySize">Tamanho da Memória (KB):</label></b>
 
 						<input
 							id="memorySize"
